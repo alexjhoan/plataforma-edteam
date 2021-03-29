@@ -1,0 +1,7 @@
+como usar.txt
+
+correr en una consola aparte del proyecto este comando, ojo en la ubicacion espeficamente ej.
+
+cd d:curso/edteam/plataforma/api
+
+json-server --watch db.json --port 3001
