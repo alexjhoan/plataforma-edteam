@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './components/App.jsx'
 import "./styles/styles.scss"
-import store from './redux/Store'
+import store from './redux/store'
 import { Provider } from 'react-redux'
-import {getAllSpecialities} from './redux/ActionCreators'
+import {getAllSpecialities} from './redux/actionCreators'
 
 store.dispatch(getAllSpecialities())
 
